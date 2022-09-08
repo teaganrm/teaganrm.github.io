@@ -1,3 +1,4 @@
 # Personal Website
  //THIS WEBSITE IS A WORK IN PROGRESS//
- This website is being built to showcase all my programming projects 
+ 
+ Website that showcases all my programming projects
