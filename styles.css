@@ -1,0 +1,60 @@
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.my-information {
+    text-align: center;
+    width: 50em;
+    max-width: fit-content;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 1em;
+}
+
+.let-me-know {
+    text-decoration: none;
+}
+
+.let-me-know:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.card {
+    max-height: 20em; 
+    min-height: 10em;
+}
+
+.card-body {
+    text-align: center;
+    padding: 1em;
+}
+
+.card-text {
+    max-height: 5em;
+    overflow: auto;
+}
+
+.card-holder {
+    margin: auto;
+    width: 70em;
+    max-width: fit-content;
+    padding: 0 2em 0 2em;
+}
+
+.card-img-top {
+    max-width: 50em;
+    max-height: 10em;
+    object-fit: cover;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+}
