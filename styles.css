@@ -36,7 +36,9 @@ a:hover {
     padding: 1em 0 1em 0;
     width: 100%;
     background-color: #264348;
-    overflow-x: auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
 .page-item {
