@@ -7,26 +7,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
 
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="#about-me">About Me</a>
+    <div class="navigation">
+      <li class="page-item">
+        <a href="#about-me" class="first-link">About Me</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
+      <li class="page-item">
+        <a href="#projects" class="first-link">Projects</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact-me">Contact Me</a>
+      <li class="page-item">
+        <a href="#contact-me" class="first-link">Contact Me</a>
       </li>
-    </ul>
+    </div>
 
   </head>
   <body>
     <h2 id="about-me">About Me</h2>
+    <div class="about-me">
       <p class="my-information">
         Hello! My name is Teagan Morrison. I am a student at the University of Arkansas pursuing a Bachelor's Degree in Computer Science. 
         I built this website to compile list of all my programming projects. Feel free to look around and 
-        <a href=#contact-me class="let-me-know">let me know</a> what you think!       
+        <a href=#contact-me class="secondary-link">let me know</a> what you think!       
       </p>
+    </div>
     
     <h2 id="projects">Projects</h2>
     <div class="card-holder">
@@ -75,9 +77,11 @@
 
   <footer>
     <h2 id="contact-me">Contact Me</h2>
+    <div class="footer-line"></div>
     <div class="footer">
-      <p class="email">Email Me: morrisonrteagan@gmail.com</p>
-      <p class="linkedin">LinkedIn URL: <a href="https://www.linkedin.com/in/teagan-morrison/">www.linkedin.com/in/teagan-morrison</a></p>
+      <p class="email"><b>Email Me:</b> morrisonrteagan@gmail.com</p>
+      <p><b>LinkedIn URL:</b> <a href="https://www.linkedin.com/in/teagan-morrison/" class="secondary-link">www.linkedin.com/in/teagan-morrison</a></p>
     </div>
+    <div class="footer-line"></div>
   </footer>
 </html>

@@ -2,43 +2,79 @@ h1, h2 {
     text-align: center;
     margin: auto;
     padding: 0.5em;
+    font-family: copperplate;
+    font-weight: bold;
+}
+
+.about-me {
+    width: 50%;
+    margin: auto;
+    background-color:#f0eae4;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: #9cbbb3;
+    text-decoration: none;
+}
+
+.first-link {
+    text-decoration: none;
+    color: #f0eae4;
+    font-family: copperplate; 
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: #5f8586;
+    font-weight: bold;
+}
+
+.navigation {
+    padding: 1em 0 1em 0;
+    width: 100%;
+    background-color: #264348;
+}
+
+.page-item {
+    list-style: none;
+    padding: 1.5em;
+    display: inline;
+    font-size: 20px;
+    color: #f0eae4;
 }
 
 .my-information {
-    text-align: center;
+    text-align: justify;
     width: 50em;
     max-width: fit-content;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 1em;
-}
-
-.let-me-know {
-    text-decoration: none;
-}
-
-.let-me-know:hover {
-    text-decoration: none;
-    color: grey;
-}
-
-.nav-link:hover {
-    color: grey;
+    padding: 0 1.5em 0 1.5em;
 }
 
 .card {
-    max-height: 20em; 
-    min-height: 10em;
+    max-height: 30em; 
+    min-height: 20em;
 }
 
 .card-body {
-    text-align: center;
+    text-align: justify;
     padding: 1em;
+    border-style: solid;
+    border-top: none;
+    border-color:#264348;
 }
 
 .card-text {
-    max-height: 5em;
+    max-height: 4em;
     overflow: auto;
+}
+
+.card-title {
+    font-family: copperplate; 
+    font-weight: bold;
 }
 
 .card-holder {
@@ -52,9 +88,31 @@ h1, h2 {
     max-width: 50em;
     max-height: 10em;
     object-fit: cover;
+    border-style: solid;
+    border-bottom: none;
+    border-color:#264348;
 }
 
-.footer {
-    margin: auto;
+footer {
+    width: 100%;
+    margin-top: 2em;
     text-align: center;
+    background-color:#f0eae4;
+    padding-bottom: 1em;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
