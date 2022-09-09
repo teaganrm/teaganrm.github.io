@@ -7,8 +7,9 @@ h1, h2 {
 }
 
 .about-me {
-    width: 50%;
+    width: 60%;
     margin: auto;
+    min-width: fit-content;
     background-color:#f0eae4;
     padding: 1em;
     border-radius: 15px;
