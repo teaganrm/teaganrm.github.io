@@ -50,7 +50,7 @@ a:hover {
 }
 
 .my-information {
-    text-align: center;
+    text-align: left;
     width: 50em;
     max-width: fit-content;
     margin: 0 auto;
