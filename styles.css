@@ -13,7 +13,6 @@ h1, h2 {
     background-color:#f0eae4;
     padding: 1em;
     border-radius: 15px;
-    word-spacing: 0em;
 }
 
 a:hover {
@@ -51,7 +50,7 @@ a:hover {
 }
 
 .my-information {
-    text-align: justify;
+    text-align: center;
     width: 50em;
     max-width: fit-content;
     margin: 0 auto;
