@@ -1,0 +1,65 @@
+.navigation {
+    padding: 1em 0 1em 0;
+    width: 100%;
+    background-color: #264348;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.page-item {
+    list-style: none;
+    padding: 1.5em;
+    display: inline;
+    font-size: 20px;
+    color: #f0eae4;
+}
+
+a:hover {
+    color: #9cbbb3;
+    text-decoration: none;
+}
+
+.first-link {
+    text-decoration: none;
+    color: #f0eae4;
+    font-family: copperplate; 
+}
+
+.card {
+    border-width: 0px;
+}
+
+.card-group {
+    margin: 3em auto 3em auto;
+    width: 80%;
+}
+
+.card-border {
+    border: solid;
+    border-color: #264348;
+    border-width: 0.4em;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: copperplate;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
