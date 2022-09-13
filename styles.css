@@ -1,4 +1,7 @@
-h1, h2 {
+
+/* INDEX.HTML CSS */
+
+#about-me, #projects, #contact-me {
     text-align: center;
     margin: auto;
     padding: 0.5em;
@@ -32,6 +35,11 @@ a:hover {
     font-weight: bold;
 }
 
+.third-link {
+    text-decoration: none;
+    color: #264348;
+}
+
 .navigation {
     padding: 1em 0 1em 0;
     width: 100%;
@@ -50,7 +58,7 @@ a:hover {
 }
 
 .my-information {
-    text-align: justify;
+    text-align: left;
     width: 50em;
     max-width: fit-content;
     margin: 0 auto;
@@ -64,7 +72,7 @@ a:hover {
 }
 
 .card-body {
-    text-align: justify;
+    text-align: left;
     padding: 1em;
     border-style: solid;
     border-top: none;
@@ -97,7 +105,7 @@ a:hover {
     border-color:#264348;
 }
 
-footer {
+#index-footer {
     width: 100%;
     margin-top: 2em;
     text-align: center;
@@ -109,14 +117,69 @@ footer {
     width: 10px;
   }
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1; 
   }
    
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #888; 
   }
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+
+/* PROJECT1.HTML CSS */
+
+.project-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    border-color:#264348;
+    border-width: 0.5em;
+}
+
+.project-div-left {
+    width: 70%;
+    overflow: hidden;
+    border-right: solid;
+    border-width: 0.5em;
+    border-color:#264348;
+}
+
+.project-div-right {
+    width: 100%;
+    min-width: 10em;
+}
+
+.project-img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.project-info-right {
+    padding: 1em;
+    text-align: left;
+    max-height: 10em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project-info-left {
+    font-family: copperplate;
+    font-size: 20px;
+    color:#264348;
+    font-weight: bold;
+    padding: 0.5em;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
